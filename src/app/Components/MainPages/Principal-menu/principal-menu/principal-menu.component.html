@@ -2,8 +2,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
-            Bootstrap
+            
+            Control Interno
         </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -14,12 +14,35 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a [routerLink]="['registro']" class="nav-link active">Registro</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Sobre Nosotros</a>
           </li>
-          <li class="nav-item dropdown">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Roles</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Areas</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Departamentos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Periodos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prueba git</a>
+          </li>
+
+
+          
+        <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown link
             </a>
@@ -28,17 +51,11 @@
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-          </li>
+          </li>-->
         </ul>
       </div>
+      <button (click)="Login()">Iniciar Sesion</button>
     </div>
   </nav>
-    <body>
-        <ul class="menu">
-            <li><a [routerLink]="['registro']">Registro</a></li>
-            <li><a href="#">Sobre Nosotros</a></li>
-  
-            <button (click)="Login()">Iniciar Sesion</button>
-        </ul>
-    </body>
+    
 
