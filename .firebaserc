@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "psw-control": {
+      "hosting": {
+        "AngularSW": [
+          "psw-control"
+        ]
+      }
+    }
+  }
+}
