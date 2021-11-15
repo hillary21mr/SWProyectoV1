@@ -11,11 +11,11 @@ export class PrincipalMenuComponent implements OnInit {
   constructor(private router:Router) { }
 
 CrearRoles(){
-  this.router.navigateByUrl("crearrol");
+  this.router.navigateByUrl("['CrearRoles']");
 }
 
 Registro(){
-  this.router.navigateByUrl("crearrol");
+  this.router.navigateByUrl("['registro']");
 }
 
 

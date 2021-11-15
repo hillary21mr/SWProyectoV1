@@ -15,8 +15,6 @@ const routes: Routes = [
 
   {path:'login', component: LogInComponent},
   
-
-
   {path:'menu', component: PrincipalMenuComponent},
 
   {path:'CrearRoles', component: CrearRolComponent},
