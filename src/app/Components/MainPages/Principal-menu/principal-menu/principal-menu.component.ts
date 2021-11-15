@@ -10,6 +10,15 @@ export class PrincipalMenuComponent implements OnInit {
 
   constructor(private router:Router) { }
 
+CrearRoles(){
+  this.router.navigateByUrl("crearrol");
+}
+
+Registro(){
+  this.router.navigateByUrl("crearrol");
+}
+
+
   Login(){
 this.router.navigateByUrl("login");
   }

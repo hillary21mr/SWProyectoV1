@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import {Router} from '@angular/router'
 
 @Component({
   selector: 'app-log-in',
@@ -10,14 +11,16 @@ export class LogInComponent implements OnInit {
 
   username : string = "";
   contra : string = "";
-  constructor() { }
 
-  submit(){
-    console.log(this.username);
-    console.log(this.contra);
-  }
+  constructor(private router:Router) { }
+
+ 
 
   ngOnInit(): void {
   }
+
+  Menu(){
+    this.router.navigate(['/menu']);
+      }
 
 }

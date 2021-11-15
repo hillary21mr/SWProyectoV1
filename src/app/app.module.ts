@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, NgModel } from '@angular/forms';  //  para trabajar con formularios
 import { HttpClientModule } from '@angular/common/http';  // para realizar peticiones HTTP 
@@ -16,6 +16,9 @@ import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crea
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 
+import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.component';
+import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +29,10 @@ import { environment } from 'src/environments/environment';
     AsignarPeriodoComponent,
     CEEPeriodoComponent,
     NuevoPeriodoComponent,
-    CrearAreaComponent
+    CrearAreaComponent,
+
+    CrearRolComponent,
+    AsignarRolComponent
   ],
   imports: [
     BrowserModule,
