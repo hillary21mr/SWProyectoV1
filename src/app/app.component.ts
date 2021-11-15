@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AngularFirestore } from '@angular/fire/firestore';
+//import { AngularFirestore } from '@angular/fire/AngularFirestore';
 
 @Component({
   selector: 'app-root',
@@ -9,10 +9,10 @@ import { AngularFirestore } from '@angular/fire/firestore';
 export class AppComponent {
   title = 'AngularSW';
 
-  constructor(private firestore: AngularFirestore) {
+  constructor(/*private firestore: AngularFirestore*/) {
 
   }
-
+/* 
   altaUsuario() {
     console.log("Entra alta usuario")
     this.firestore.collection("usuarios").add({"nombre": "Jonathan", "password": "123456"}).then(()=>{
@@ -23,4 +23,6 @@ export class AppComponent {
        console.log("Entra alta usuario 2")
      })
   }
+  */
 }
+

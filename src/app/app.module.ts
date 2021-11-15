@@ -12,12 +12,9 @@ import { AsignarPeriodoComponent } from './Components/Periodos/AsignarPeriodo/as
 import { CEEPeriodoComponent } from './Components/Periodos/CEEPeriodo/ceeperiodo/ceeperiodo.component';
 import { NuevoPeriodoComponent } from './Components/Periodos/NuevoPeriodo/nuevo-periodo/nuevo-periodo.component';
 import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crear-area.component';
-<<<<<<< Updated upstream
-=======
+
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
-
->>>>>>> Stashed changes
 
 @NgModule({
   declarations: [
@@ -34,11 +31,11 @@ import { environment } from 'src/environments/environment';
   imports: [
     BrowserModule,
     AppRoutingModule,
-<<<<<<< Updated upstream
-    FormsModule
-=======
+
+    FormsModule,
+
     AngularFireModule.initializeApp(environment.firebaseConfig)
->>>>>>> Stashed changes
+
   ],
   providers: [],
   bootstrap: [AppComponent]
