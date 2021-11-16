@@ -13,16 +13,15 @@ export class LogInComponent implements OnInit {
   contra : string = "";
   constructor(private router:Router) { }
 
-  submit(){
-    console.log(this.username);
-    console.log(this.contra);
-  }
 
   ngOnInit(): void {
   }
 
   Menu(){
-    this.router.navigateByUrl("menuprincipal");
+    this.router.navigateByUrl("menu");
+    console.log(this.username);
+    console.log(this.contra);
+  }
       }
   
-}
+
