@@ -15,6 +15,9 @@ import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crea
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 47b8ce2 (Revert "update")
 import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.component';
 import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
 <<<<<<< HEAD
@@ -25,6 +28,7 @@ import { ModificarDeptartamentoComponent } from './Components/Departamentos/modi
 import { ElimnarDepartamentoComponent } from './Components/Departamentos/elimnar-departamento/elimnar-departamento.component';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 0d3b843 (componentes)
 =======
@@ -40,6 +44,8 @@ import { environment } from 'src/environments/environment';
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 0b0862f (Merge branch 'main' of https://github.com/Sebas1008/SWProyectoV1)
+=======
+>>>>>>> parent of 47b8ce2 (Revert "update")
 
 @NgModule({
   declarations: [
@@ -64,6 +70,7 @@ import { environment } from 'src/environments/environment';
     AppRoutingModule,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     FormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig)
 =======
@@ -76,6 +83,10 @@ import { environment } from 'src/environments/environment';
 =======
     FormsModule
 >>>>>>> parent of 0b0862f (Merge branch 'main' of https://github.com/Sebas1008/SWProyectoV1)
+=======
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig)
+>>>>>>> parent of 47b8ce2 (Revert "update")
   ],
   providers: [],
   bootstrap: [AppComponent]
