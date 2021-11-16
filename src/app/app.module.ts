@@ -14,7 +14,7 @@ import { NuevoPeriodoComponent } from './Components/Periodos/NuevoPeriodo/nuevo-
 import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crear-area.component';
 import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.component';
 import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
-import { ModificarAreaComponent } from './Components/Areas/CrearArea/crear-area/modificar-area/modificar-area.component';
+
 
 @NgModule({
   declarations: [
@@ -29,8 +29,8 @@ import { ModificarAreaComponent } from './Components/Areas/CrearArea/crear-area/
 
     CrearAreaComponent,
       CrearRolComponent,
-      AsignarRolComponent,
-      ModificarAreaComponent,
+      AsignarRolComponent
+
 
   ],
   imports: [

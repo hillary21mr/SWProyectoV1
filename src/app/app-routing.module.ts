@@ -1,3 +1,4 @@
+import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
 
 import { PrincipalMenuComponent } from './Components/MainPages/Principal-menu/principal-menu/principal-menu.component';
 import { LogInComponent } from './Components/MainPages/Login/log-in/log-in.component';
@@ -17,8 +18,10 @@ const routes: Routes = [
   
   {path:'menu', component: PrincipalMenuComponent},
 
+  {path:'asignaarrol', component: AsignarRolComponent},
 
   {path:'menuprincipal', component: PrincipalMenuComponent},
+
 
   
   { path: '**', redirectTo: 'home' }

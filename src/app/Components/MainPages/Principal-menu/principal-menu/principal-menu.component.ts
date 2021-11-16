@@ -11,6 +11,12 @@ export class PrincipalMenuComponent implements OnInit {
   constructor(private router:Router) { }
 
 
+  AsignarRoles(){
+    this.router.navigateByUrl("['asignaarrol']");
+ 
+  }
+
+
 CrearRoles(){
   this.router.navigateByUrl("['CrearRoles']");
 }
