@@ -12,6 +12,9 @@ import { AsignarPeriodoComponent } from './Components/Periodos/AsignarPeriodo/as
 import { CEEPeriodoComponent } from './Components/Periodos/CEEPeriodo/ceeperiodo/ceeperiodo.component';
 import { NuevoPeriodoComponent } from './Components/Periodos/NuevoPeriodo/nuevo-periodo/nuevo-periodo.component';
 import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crear-area.component';
+import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.component';
+import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
+import { ModificarAreaComponent } from './Components/Areas/CrearArea/crear-area/modificar-area/modificar-area.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,9 @@ import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crea
     NuevoPeriodoComponent,
 
     CrearAreaComponent,
+      CrearRolComponent,
+      AsignarRolComponent,
+      ModificarAreaComponent,
 
   ],
   imports: [
