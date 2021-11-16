@@ -14,6 +14,7 @@ import { NuevoPeriodoComponent } from './Components/Periodos/NuevoPeriodo/nuevo-
 import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crear-area.component';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.component';
 import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
 <<<<<<< HEAD
@@ -37,6 +38,8 @@ import { environment } from 'src/environments/environment';
 >>>>>>> parent of 36a50bb (Crear Roles)
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 0b0862f (Merge branch 'main' of https://github.com/Sebas1008/SWProyectoV1)
 
 @NgModule({
   declarations: [
@@ -60,6 +63,7 @@ import { environment } from 'src/environments/environment';
     BrowserModule,
     AppRoutingModule,
 <<<<<<< HEAD
+<<<<<<< HEAD
     FormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig)
 =======
@@ -69,6 +73,9 @@ import { environment } from 'src/environments/environment';
     AngularFireModule.initializeApp(environment.firebaseConfig)
 >>>>>>> Stashed changes
 >>>>>>> parent of 38a142c (Comentario)
+=======
+    FormsModule
+>>>>>>> parent of 0b0862f (Merge branch 'main' of https://github.com/Sebas1008/SWProyectoV1)
   ],
   providers: [],
   bootstrap: [AppComponent]
