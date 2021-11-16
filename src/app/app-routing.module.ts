@@ -13,14 +13,15 @@ const routes: Routes = [
   {path:'registro', component: SignUpComponent},
 
   {path:'login', component: LogInComponent},
+
   
   {path:'menu', component: PrincipalMenuComponent},
 
 
-  
- // { path: '**', redirectTo: 'menuprincipal' }
+  {path:'menuprincipal', component: PrincipalMenuComponent},
 
- {path: '', redirectTo:'/home',pathMatch:'full'}
+  
+  { path: '**', redirectTo: 'menuprincipal' }
 ];
 
 @NgModule({

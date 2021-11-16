@@ -14,14 +14,18 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
+
             <a [routerLink]="['/Registro']" routerLinkActive="router-link-active"   class="nav-link active">Registro</a>
+
+            <a [routerLink]="['registro']" class="nav-link active">Registro</a>
+
           </li>
           <li class="nav-item">
             <a class="nav-link" >Sobre Nosotros</a>
           </li>
 
           <li class="nav-item">
-            <a [routerLink]="['CrearRoles']" class="nav-link active">Roles</a>
+            <a class="nav-link" href="#">Roles</a>
           </li>
         
 
@@ -58,9 +62,5 @@
       <button (click)="Login()">Iniciar Sesion</button>
     </div>
   </nav>
-  <header class="header">
-    <h1>Sistema de control interno</h1>
-</header>
-<div class="wrapper-img">
-  
-</div>
+    
+

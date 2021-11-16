@@ -10,6 +10,7 @@ export class PrincipalMenuComponent implements OnInit {
 
   constructor(private router:Router) { }
 
+
 CrearRoles(){
   this.router.navigateByUrl("['CrearRoles']");
 }
@@ -17,7 +18,6 @@ CrearRoles(){
 Registro(){
   this.router.navigateByUrl("['registro']");
 }
-
 
   Login(){
 this.router.navigateByUrl("login");

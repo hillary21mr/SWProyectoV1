@@ -1,4 +1,4 @@
-import { NgModule, Component } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, NgModel } from '@angular/forms';  //  para trabajar con formularios
 import { HttpClientModule } from '@angular/common/http';  // para realizar peticiones HTTP 
@@ -13,16 +13,6 @@ import { CEEPeriodoComponent } from './Components/Periodos/CEEPeriodo/ceeperiodo
 import { NuevoPeriodoComponent } from './Components/Periodos/NuevoPeriodo/nuevo-periodo/nuevo-periodo.component';
 import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crear-area.component';
 
-import { AngularFireModule } from '@angular/fire';
-import { environment } from 'src/environments/environment';
-
-
-import { ModificarAreaComponent } from './Components/Areas/modificar-area/modificar-area.component';
-import { EliminarAreaComponent } from './Components/Areas/eliminar-area/eliminar-area.component';
-import { CrearDepartamentoComponent } from './Components/Departamentos/crear-departamento/crear-departamento.component';
-import { ModificarDeptartamentoComponent } from './Components/Departamentos/modificar-deptartamento/modificar-deptartamento.component';
-import { ElimnarDepartamentoComponent } from './Components/Departamentos/elimnar-departamento/elimnar-departamento.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,22 +23,15 @@ import { ElimnarDepartamentoComponent } from './Components/Departamentos/elimnar
     AsignarPeriodoComponent,
     CEEPeriodoComponent,
     NuevoPeriodoComponent,
+
     CrearAreaComponent,
 
-  
-    ModificarAreaComponent,
-    EliminarAreaComponent,
-    CrearDepartamentoComponent,
-    ModificarDeptartamentoComponent,
-    ElimnarDepartamentoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
 
-    FormsModule,
-
-    AngularFireModule.initializeApp(environment.firebaseConfig)
+    FormsModule
 
   ],
   providers: [],
