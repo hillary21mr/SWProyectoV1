@@ -16,8 +16,15 @@ import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crea
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 47b8ce2 (Revert "update")
+=======
+
+import { AngularFireModule } from '@angular/fire';
+import { environment } from 'src/environments/environment';
+
+>>>>>>> parent of 2416ebc (update)
 import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.component';
 import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
 <<<<<<< HEAD
@@ -26,6 +33,7 @@ import { EliminarAreaComponent } from './Components/Areas/eliminar-area/eliminar
 import { CrearDepartamentoComponent } from './Components/Departamentos/crear-departamento/crear-departamento.component';
 import { ModificarDeptartamentoComponent } from './Components/Departamentos/modificar-deptartamento/modificar-deptartamento.component';
 import { ElimnarDepartamentoComponent } from './Components/Departamentos/elimnar-departamento/elimnar-departamento.component';
+<<<<<<< HEAD
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 <<<<<<< HEAD
@@ -46,6 +54,8 @@ import { environment } from 'src/environments/environment';
 >>>>>>> parent of 0b0862f (Merge branch 'main' of https://github.com/Sebas1008/SWProyectoV1)
 =======
 >>>>>>> parent of 47b8ce2 (Revert "update")
+=======
+>>>>>>> parent of 2416ebc (update)
 
 @NgModule({
   declarations: [
@@ -59,6 +69,7 @@ import { environment } from 'src/environments/environment';
     NuevoPeriodoComponent,
 <<<<<<< HEAD
     CrearAreaComponent,
+
     CrearRolComponent,
     AsignarRolComponent
 =======
@@ -68,6 +79,7 @@ import { environment } from 'src/environments/environment';
   imports: [
     BrowserModule,
     AppRoutingModule,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,9 +96,17 @@ import { environment } from 'src/environments/environment';
     FormsModule
 >>>>>>> parent of 0b0862f (Merge branch 'main' of https://github.com/Sebas1008/SWProyectoV1)
 =======
+=======
+
+>>>>>>> parent of 2416ebc (update)
     FormsModule,
+
     AngularFireModule.initializeApp(environment.firebaseConfig)
+<<<<<<< HEAD
 >>>>>>> parent of 47b8ce2 (Revert "update")
+=======
+
+>>>>>>> parent of 2416ebc (update)
   ],
   providers: [],
   bootstrap: [AppComponent]
