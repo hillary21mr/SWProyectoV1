@@ -1,44 +1,26 @@
 
+<body>
+    <header class="header">
+        <h1>Sistema de control interno</h1>
+    </header>
+<div class="wrapper-img">
+    <div class="wrapper">
+        <div class="wrapper-form">
+            <form action="">
+                <h2>Login</h2>
+                <label for="">Identificacion</label>
+                <input type="text">
 
-    <div>
-     <div> 
-        
-        <div class="card-header-pills bg-dark text-white">
-            <h2>SISTEMA DE CONTROL INTERNO</h2>
-          
-           </div>
+                <label for="">Password</label>
+                <input type="password">
 
-          <div class="form-group" style=" width:80%">
-            <h2>LOGIN</h2>
-             <label class="text-dark" for="Usuario">USUARIO</label>
-                <div class="input-group mb-2">
-                    <div class="input-group-prepend">
-                       <div class="input-group-text">
-                        <input [(ngModel)]="username" type="text" name="username" required placeholder="Nombre Usuario">
-                       </div>
-                   </div>
-               
+                <div class="btn-group">
+                    <button (click)="Menu()"  class="my-btn my-btn-primary">LogIn</button>
                 </div>
-          </div>
-          <div class="form-group">
-              <label class="text-dark" for="passLabel">CONTRASEÑA</label>
-              <div class="input-group mb-2">
-                <div class="input-group-prepend">
-                   <div class="input-group-text">
-                    <input [(ngModel)]="contra" type="password" name="contra"  required placeholder="Contraseña">
-                   </div>
-               </div>
-           
-            </div>
-        
-            </div>
-            <div class=" form-group form-check">
-        
-              <label class=" form-check-label" for="passLabel">Recordar Usuario?</label>
-              <input type="checkbox" name="chrecordar" >
-          </div>
-
-        <div>
-            <button (click)= "submit()">Ingresar</button>
+                
+            </form>
         </div>
     </div>
+ </div>>
+
+</body>

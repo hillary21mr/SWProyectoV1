@@ -21,7 +21,7 @@ const routes: Routes = [
   {path:'menuprincipal', component: PrincipalMenuComponent},
 
   
-  { path: '**', redirectTo: 'menuprincipal' }
+  { path: '**', redirectTo: 'home' }
 ];
 
 @NgModule({
