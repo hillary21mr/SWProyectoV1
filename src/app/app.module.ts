@@ -14,6 +14,8 @@ import { NuevoPeriodoComponent } from './Components/Periodos/NuevoPeriodo/nuevo-
 import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crear-area.component';
 import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.component';
 import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
+import { CrearDepartamentoComponent } from './Components/Departamentos/crear-departamento/crear-departamento.component';
+import { ModificarDepartamentoComponent } from './Components/Departamentos/modificar-departamento/modificar-departamento.component';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.
 
     CrearAreaComponent,
       CrearRolComponent,
-      AsignarRolComponent
+      AsignarRolComponent,
+      CrearDepartamentoComponent,
+      ModificarDepartamentoComponent
 
 
   ],
