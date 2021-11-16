@@ -12,10 +12,6 @@ import { AsignarPeriodoComponent } from './Components/Periodos/AsignarPeriodo/as
 import { CEEPeriodoComponent } from './Components/Periodos/CEEPeriodo/ceeperiodo/ceeperiodo.component';
 import { NuevoPeriodoComponent } from './Components/Periodos/NuevoPeriodo/nuevo-periodo/nuevo-periodo.component';
 import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crear-area.component';
-
-import { AngularFireModule } from '@angular/fire';
-import { environment } from 'src/environments/environment';
-
 import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.component';
 import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
 import { ModificarAreaComponent } from './Components/Areas/modificar-area/modificar-area.component';
@@ -23,6 +19,8 @@ import { EliminarAreaComponent } from './Components/Areas/eliminar-area/eliminar
 import { CrearDepartamentoComponent } from './Components/Departamentos/crear-departamento/crear-departamento.component';
 import { ModificarDeptartamentoComponent } from './Components/Departamentos/modificar-deptartamento/modificar-deptartamento.component';
 import { ElimnarDepartamentoComponent } from './Components/Departamentos/elimnar-departamento/elimnar-departamento.component';
+import { AngularFireModule } from '@angular/fire';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -35,7 +33,6 @@ import { ElimnarDepartamentoComponent } from './Components/Departamentos/elimnar
     CEEPeriodoComponent,
     NuevoPeriodoComponent,
     CrearAreaComponent,
-
     CrearRolComponent,
     AsignarRolComponent,
     ModificarAreaComponent,
@@ -47,11 +44,8 @@ import { ElimnarDepartamentoComponent } from './Components/Departamentos/elimnar
   imports: [
     BrowserModule,
     AppRoutingModule,
-
     FormsModule,
-
     AngularFireModule.initializeApp(environment.firebaseConfig)
-
   ],
   providers: [],
   bootstrap: [AppComponent]
