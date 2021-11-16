@@ -16,8 +16,12 @@ import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crea
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 
-import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.component';
-import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
+
+import { ModificarAreaComponent } from './Components/Areas/modificar-area/modificar-area.component';
+import { EliminarAreaComponent } from './Components/Areas/eliminar-area/eliminar-area.component';
+import { CrearDepartamentoComponent } from './Components/Departamentos/crear-departamento/crear-departamento.component';
+import { ModificarDeptartamentoComponent } from './Components/Departamentos/modificar-deptartamento/modificar-deptartamento.component';
+import { ElimnarDepartamentoComponent } from './Components/Departamentos/elimnar-departamento/elimnar-departamento.component';
 
 @NgModule({
   declarations: [
@@ -31,8 +35,12 @@ import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.
     NuevoPeriodoComponent,
     CrearAreaComponent,
 
-    CrearRolComponent,
-    AsignarRolComponent
+  
+    ModificarAreaComponent,
+    EliminarAreaComponent,
+    CrearDepartamentoComponent,
+    ModificarDeptartamentoComponent,
+    ElimnarDepartamentoComponent
   ],
   imports: [
     BrowserModule,

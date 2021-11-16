@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AsignarRolComponent } from './asignar-rol.component';
+import { EliminarAreaComponent } from './eliminar-area.component';
 
-describe('AsignarRolComponent', () => {
-  let component: AsignarRolComponent;
-  let fixture: ComponentFixture<AsignarRolComponent>;
+describe('EliminarAreaComponent', () => {
+  let component: EliminarAreaComponent;
+  let fixture: ComponentFixture<EliminarAreaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AsignarRolComponent ]
+      declarations: [ EliminarAreaComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AsignarRolComponent);
+    fixture = TestBed.createComponent(EliminarAreaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
