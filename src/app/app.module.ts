@@ -14,6 +14,7 @@ import { NuevoPeriodoComponent } from './Components/Periodos/NuevoPeriodo/nuevo-
 import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crear-area.component';
 import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.component';
 import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
+<<<<<<< HEAD
 import { ModificarAreaComponent } from './Components/Areas/modificar-area/modificar-area.component';
 import { EliminarAreaComponent } from './Components/Areas/eliminar-area/eliminar-area.component';
 import { CrearDepartamentoComponent } from './Components/Departamentos/crear-departamento/crear-departamento.component';
@@ -21,6 +22,8 @@ import { ModificarDeptartamentoComponent } from './Components/Departamentos/modi
 import { ElimnarDepartamentoComponent } from './Components/Departamentos/elimnar-departamento/elimnar-departamento.component';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
+=======
+>>>>>>> parent of 0d3b843 (componentes)
 
 @NgModule({
   declarations: [
@@ -34,12 +37,7 @@ import { environment } from 'src/environments/environment';
     NuevoPeriodoComponent,
     CrearAreaComponent,
     CrearRolComponent,
-    AsignarRolComponent,
-    ModificarAreaComponent,
-    EliminarAreaComponent,
-    CrearDepartamentoComponent,
-    ModificarDeptartamentoComponent,
-    ElimnarDepartamentoComponent
+    AsignarRolComponent
   ],
   imports: [
     BrowserModule,
