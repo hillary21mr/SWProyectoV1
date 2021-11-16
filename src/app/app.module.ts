@@ -1,4 +1,4 @@
-import { NgModule, Component } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, NgModel } from '@angular/forms';  //  para trabajar con formularios
 import { HttpClientModule } from '@angular/common/http';  // para realizar peticiones HTTP 
@@ -12,6 +12,7 @@ import { AsignarPeriodoComponent } from './Components/Periodos/AsignarPeriodo/as
 import { CEEPeriodoComponent } from './Components/Periodos/CEEPeriodo/ceeperiodo/ceeperiodo.component';
 import { NuevoPeriodoComponent } from './Components/Periodos/NuevoPeriodo/nuevo-periodo/nuevo-periodo.component';
 import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crear-area.component';
+<<<<<<< HEAD
 import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.component';
 import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
 <<<<<<< HEAD
@@ -24,6 +25,11 @@ import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 =======
 >>>>>>> parent of 0d3b843 (componentes)
+=======
+
+import { AngularFireModule } from '@angular/fire';
+import { environment } from 'src/environments/environment';
+>>>>>>> parent of 36a50bb (Crear Roles)
 
 @NgModule({
   declarations: [
@@ -35,9 +41,13 @@ import { environment } from 'src/environments/environment';
     AsignarPeriodoComponent,
     CEEPeriodoComponent,
     NuevoPeriodoComponent,
+<<<<<<< HEAD
     CrearAreaComponent,
     CrearRolComponent,
     AsignarRolComponent
+=======
+    CrearAreaComponent
+>>>>>>> parent of 36a50bb (Crear Roles)
   ],
   imports: [
     BrowserModule,
