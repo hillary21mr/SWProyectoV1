@@ -16,6 +16,12 @@ import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.compon
 import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
 import { CrearDepartamentoComponent } from './Components/Departamentos/crear-departamento/crear-departamento.component';
 import { ModificarDepartamentoComponent } from './Components/Departamentos/modificar-departamento/modificar-departamento.component';
+import { CrearEvaluacionComponent } from './Components/Evaluaciones/crear-evaluacion/crear-evaluacion.component';
+import { EvaluacionDependenciasComponent } from './Components/Evaluaciones/evaluacion-dependencias/evaluacion-dependencias.component';
+import { CompletarEvaluacionXDependenciaComponent } from './Components/Evaluaciones/completar-evaluacion-xdependencia/completar-evaluacion-xdependencia.component';
+import { ModificarEvaluacionXDependenciaComponent } from './Components/Evaluaciones/modificar-evaluacion-xdependencia/modificar-evaluacion-xdependencia.component';
+import { ListarEvidenciasXdependenciaComponent } from './Components/Evaluaciones/listar-evidencias-xdependencia/listar-evidencias-xdependencia.component';
+//import { CrearPeriodoComponent } from './Components/Periodos/crear-periodo/crear-periodo.component';
 
 
 @NgModule({
@@ -33,7 +39,12 @@ import { ModificarDepartamentoComponent } from './Components/Departamentos/modif
       CrearRolComponent,
       AsignarRolComponent,
       CrearDepartamentoComponent,
-      ModificarDepartamentoComponent
+      ModificarDepartamentoComponent,
+      CrearEvaluacionComponent,
+      EvaluacionDependenciasComponent,
+      CompletarEvaluacionXDependenciaComponent,
+      ModificarEvaluacionXDependenciaComponent,
+      ListarEvidenciasXdependenciaComponent
 
 
   ],
