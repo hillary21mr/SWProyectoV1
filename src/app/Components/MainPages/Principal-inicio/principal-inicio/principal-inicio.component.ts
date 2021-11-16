@@ -17,4 +17,8 @@ export class PrincipalInicioComponent implements OnInit {
     this.router.navigateByUrl("login");
       }
 
+      Registro(){
+        this.router.navigateByUrl("registro");
+          }
+
 }

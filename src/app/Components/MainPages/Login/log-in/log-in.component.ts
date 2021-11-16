@@ -24,6 +24,5 @@ export class LogInComponent implements OnInit {
   Menu(){
     this.router.navigateByUrl("menuprincipal");
       }
-
-
+  
 }
