@@ -13,6 +13,7 @@ import { CEEPeriodoComponent } from './Components/Periodos/CEEPeriodo/ceeperiodo
 import { NuevoPeriodoComponent } from './Components/Periodos/NuevoPeriodo/nuevo-periodo/nuevo-periodo.component';
 import { CrearAreaComponent } from './Components/Areas/CrearArea/crear-area/crear-area.component';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { CrearRolComponent } from './Components/Roles/crear-rol/crear-rol.component';
 import { AsignarRolComponent } from './Components/Roles/asignar-rol/asignar-rol.component';
 <<<<<<< HEAD
@@ -27,9 +28,15 @@ import { environment } from 'src/environments/environment';
 >>>>>>> parent of 0d3b843 (componentes)
 =======
 
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> parent of 38a142c (Comentario)
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 >>>>>>> parent of 36a50bb (Crear Roles)
+
+>>>>>>> Stashed changes
 
 @NgModule({
   declarations: [
@@ -52,8 +59,16 @@ import { environment } from 'src/environments/environment';
   imports: [
     BrowserModule,
     AppRoutingModule,
+<<<<<<< HEAD
     FormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig)
+=======
+<<<<<<< Updated upstream
+    FormsModule
+=======
+    AngularFireModule.initializeApp(environment.firebaseConfig)
+>>>>>>> Stashed changes
+>>>>>>> parent of 38a142c (Comentario)
   ],
   providers: [],
   bootstrap: [AppComponent]
