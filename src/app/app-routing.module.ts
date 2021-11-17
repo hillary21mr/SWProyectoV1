@@ -63,7 +63,7 @@ const routes: Routes = [
       {path:'menu', component: PrincipalMenuComponent},
 
 
-     /*  { path: '**', redirectTo: 'home' },*/
+      { path: '**', redirectTo: 'home' },
 
  /* {
     path: 'Roles', 
